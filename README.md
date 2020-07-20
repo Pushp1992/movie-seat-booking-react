@@ -1,4 +1,4 @@
-# This repository is meant for Conversational Chat Bot
+# This repository is meant for Movie Seat Booking
 
 To Runs the app in the development mode.<br>
 Open [http://localhost:7000](http://localhost:7000) to view it in the browser.
@@ -25,10 +25,8 @@ ___
 
 # Application features
 
-1. Take user name from input box, on page load (Optional).
-2. Default displayed text to the user about the chat bot.
-3. Take user input and respond based on input type.
-4. For unidentified user input, will show default bot response.
+1. Take Seat Quantity from select box.
+2. Book the seat in one click as per selected seat quantity.
 ___
 
 # Application structure
@@ -39,15 +37,15 @@ ___
     -- assets
         -- images
     -- component
-        -- Container
+        -- BookingPage
         -- Footer
         -- Header
         -- HomePage
-        -- InputBox
         -- NotFound
         -- component.js
         -- routes.js
     -- utils
+        -- mockData.js
         -- mockresponse.js.js
         -- toastr.js
 # .gitignore

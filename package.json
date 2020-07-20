@@ -1,8 +1,8 @@
 {
-  "name": "yellow-messanger",
+  "name": "seat-booking",
   "version": "0.1.0",
   "author": "Pushp Singh <pushp.ranjansingh@gmail.com>",
-  "description": "Conversational Chat Bot",
+  "description": "seat-booking",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
